@@ -18,3 +18,17 @@ This is a Java Spring Boot microservice for managing employee data. The microser
    ```bash
    git clone https://github.com/yourusername/employee-management-microservice.git
    cd employee-management-microservice
+   
+2. **Configure MongoDB:**
+
+Ensure MongoDB is running locally or use a cloud instance. Update the application.yml file with your MongoDB connection details:
+```yaml
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: Employees
+```
+Replace mongodb://localhost:27017 with your MongoDB connection URI if you're using a cloud service.
+
+
