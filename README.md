@@ -18,8 +18,15 @@ This is a Java Spring Boot microservice for managing employee data. The microser
    ```bash
    git clone https://github.com/yourusername/employee-management-microservice.git
    cd employee-management-microservice
+
+2. **Configure MongoDB 1:**
+   create a collection called Employee and insert the data to it 
+
+   **DataBase JSON:**
+[Employees.Employee.json](https://github.com/user-attachments/files/16626487/Employees.Employee.json)
+
    
-2. **Configure MongoDB:**
+3. **Configure MongoDB 2:**
 
 Ensure MongoDB is running locally or use a cloud instance. Update the application.yml file with your MongoDB connection details:
 ```yaml
@@ -33,5 +40,3 @@ Replace mongodb://localhost:27017 with your MongoDB connection URI if you're usi
 
 
 
-**DataBase JSON:**
-[Employees.Employee.json](https://github.com/user-attachments/files/16626487/Employees.Employee.json)
