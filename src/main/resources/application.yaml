@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://alm9ly:Dapizza511@cluster0.u8koa.mongodb.net/
+      database: Employees
